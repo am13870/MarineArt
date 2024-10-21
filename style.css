@@ -1,0 +1,69 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: white;
+}
+
+.background1 {
+    background-image: url('battle.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background2 {
+
+    background-image: url('hurricane.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background3 {
+
+    background-image: url('ninthwave.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content1 {
+    background-color: #e05f37;
+}
+
+.content2 {
+    background-color: #cbc761;
+}
+
+.content3 {
+    background-color: #9f6e7c;
+}
+
+.background1 h1 {
+    font-size: 4em;
+}
+
+.background2 h1 {
+    font-size: 4em;
+}
+
+.background3 h1 {
+    font-size: 4em;
+}
